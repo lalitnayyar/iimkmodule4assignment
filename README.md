@@ -25,9 +25,9 @@ This project analyzes customer behavior data from an online retail platform usin
    - Feature importance analysis
 
 ## Files Description
-- `customer_behavior_analysis_final.ipynb`: Initial data exploration and preparation
-- `customer_behavior_descriptive_analysis_final.ipynb`: Descriptive analytics and visualizations
-- `customer_behavior_predictive_analysis_final.ipynb`: Predictive modeling and future behavior forecasting
+- `LalitNayyarIIMKMod4_analysis.ipynb`: Initial data exploration and preparation
+- `LalitNayyarIIMKMod4_descriptive_analysis.ipynb`: Descriptive analytics and visualizations
+- `LalitNayyarIIMKMod4_predictive_analysis.ipynb`: Predictive modeling and future behavior forecasting
 - `requirements.txt`: List of required Python packages
 
 ## Setup Instructions
