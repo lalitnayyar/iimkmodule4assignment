@@ -54,7 +54,7 @@ This project analyzes customer behavior data from an online retail platform usin
   4. Generate temporal pattern visualizations
   5. Review customer spending insights
 
-### 3. `LalitNayyarIIMKMod4_diagnostic_analysis.ipynb`
+### 3. `LalitNayyarIIMKMod4_behavior_diagnostic_analysis_final.ipynb`
 **Diagnostic Analytics for Understanding Customer Behavior**
 - **Features**:
   - Root cause analysis of customer patterns
