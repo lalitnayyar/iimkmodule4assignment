@@ -118,17 +118,135 @@ This project analyzes customer behavior data from an online retail platform usin
 1. Clone this repository:
    ```bash
    git clone https://github.com/lalitnayyar/iimkmodule4assignment.git
+   cd iimkmodule4assignment
    ```
 2. Install required packages:
    ```bash
    pip install -r requirements.txt
    ```
 3. Place 'Online Retail.xlsx' dataset in the project directory
-4. Run notebooks in sequence:
-   - Start with analysis notebook
-   - Proceed to descriptive analysis
-   - Then, run diagnostic analysis
-   - Finally, run predictive analysis
+4. Launch Jupyter Notebook:
+   ```bash
+   jupyter notebook
+   ```
+
+## Running the Notebooks
+
+### Step 1: Initial Data Analysis
+**Notebook**: `LalitNayyarIIMKMod4_analysis.ipynb`
+1. Open the notebook in Jupyter
+2. Run all cells in sequence using `Shift + Enter` or using the "Run All" command
+3. **Important Checkpoints**:
+   - Verify data loading is successful
+   - Check data cleaning results
+   - Confirm feature engineering outputs
+4. **Expected Outputs**:
+   - Cleaned dataset saved as 'cleaned_retail_data.csv'
+   - Initial statistics report
+   - Data quality metrics
+
+### Step 2: Descriptive Analysis
+**Notebook**: `LalitNayyarIIMKMod4_descriptive_analysis.ipynb`
+1. Ensure 'cleaned_retail_data.csv' exists from Step 1
+2. Open and run all cells sequentially
+3. **Important Checkpoints**:
+   - Verify data loading from cleaned dataset
+   - Check visualization outputs
+   - Review statistical summaries
+4. **Expected Outputs**:
+   - Customer purchase patterns
+   - Product analysis charts
+   - Temporal trend visualizations
+
+### Step 3: Diagnostic Analysis
+**Notebook**: `LalitNayyarIIMKMod4_behavior_diagnostic_analysis_final.ipynb`
+1. Requires completed descriptive analysis
+2. Open and run cells in order
+3. **Important Checkpoints**:
+   - Confirm correlation analysis results
+   - Verify hypothesis test outputs
+   - Check seasonal decomposition plots
+4. **Expected Outputs**:
+   - Root cause analysis reports
+   - Factor correlation matrices
+   - Seasonal impact charts
+   - Customer loyalty metrics
+
+### Step 4: Predictive Analysis
+**Notebook**: `LalitNayyarIIMKMod4_predictive_analysis.ipynb`
+1. Requires all previous notebooks completed
+2. Open and execute cells sequentially
+3. **Important Checkpoints**:
+   - Verify feature preparation
+   - Check model training progress
+   - Review performance metrics
+4. **Expected Outputs**:
+   - Trained prediction models
+   - Performance evaluation reports
+   - Feature importance rankings
+   - Future predictions
+
+## Troubleshooting Guide
+
+### Common Issues and Solutions
+
+1. **Data Loading Issues**
+   ```python
+   FileNotFoundError: Online Retail.xlsx not found
+   ```
+   - Solution: Ensure the dataset is in the project root directory
+   - Check file name and case sensitivity
+
+2. **Memory Issues**
+   ```python
+   MemoryError: Unable to allocate array
+   ```
+   - Solution: Restart kernel and clear output
+   - Run notebooks on a machine with at least 8GB RAM
+
+3. **Package Import Errors**
+   ```python
+   ModuleNotFoundError: No module named 'package_name'
+   ```
+   - Solution: Run `pip install -r requirements.txt`
+   - Verify Python environment activation
+
+4. **Visualization Errors**
+   ```python
+   RuntimeError: Invalid display value
+   ```
+   - Solution: Restart kernel
+   - Run `%matplotlib inline` in a new cell
+
+### Performance Optimization
+
+1. **For Large Datasets**
+   - Use data sampling for initial analysis
+   - Implement chunked processing
+   - Clear unused variables
+
+2. **For Slow Visualizations**
+   - Reduce plot resolution
+   - Use efficient plot types
+   - Limit data points in visualizations
+
+## Quality Checks
+
+After running each notebook, verify:
+1. All cells executed successfully
+2. No warning messages in outputs
+3. All visualizations rendered properly
+4. Expected files generated
+5. Results match expected ranges
+
+## Expected Runtime
+
+- Analysis Notebook: ~5 minutes
+- Descriptive Analysis: ~10 minutes
+- Diagnostic Analysis: ~15 minutes
+- Predictive Analysis: ~20 minutes
+
+*Note: Runtimes may vary based on hardware specifications*
 
 ## Data Requirements
 - Input file: 'Online Retail.xlsx'
@@ -157,12 +275,6 @@ This project analyzes customer behavior data from an online retail platform usin
    - Future purchase likelihood
    - Customer lifetime value predictions
    - High-potential customer identification
-
-## Troubleshooting
-- Ensure all dependencies are correctly installed
-- Verify dataset format matches requirements
-- Check for sufficient memory for large dataset operations
-- Run notebooks in specified sequence to maintain data flow
 
 ## Contributing
 For any improvements or issues, please create a pull request or raise an issue in the repository.
