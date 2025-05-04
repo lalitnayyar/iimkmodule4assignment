@@ -6,7 +6,7 @@
 **Assignment Name**: Week 4: Required Assignment 4.1
 
 ## Project Overview
-This project analyzes customer behavior data from an online retail platform using various analytical approaches. The analysis is structured in three comprehensive notebooks, each focusing on different aspects of customer behavior analysis.
+This project analyzes customer behavior data from an online retail platform using various analytical approaches. The analysis is structured in four comprehensive notebooks, each focusing on different aspects of customer behavior analysis.
 
 ## Notebooks Description
 
@@ -54,7 +54,32 @@ This project analyzes customer behavior data from an online retail platform usin
   4. Generate temporal pattern visualizations
   5. Review customer spending insights
 
-### 3. `LalitNayyarIIMKMod4_predictive_analysis.ipynb`
+### 3. `LalitNayyarIIMKMod4_diagnostic_analysis.ipynb`
+**Diagnostic Analytics for Understanding Customer Behavior**
+- **Features**:
+  - Root cause analysis of customer patterns
+  - Price-sales relationship analysis
+  - Seasonal impact investigation
+  - Customer loyalty factor analysis
+  - Advanced correlation studies
+- **Key Analyses**:
+  - Product performance drivers
+  - Customer spending variations
+  - Temporal pattern drivers
+  - Customer loyalty factors
+- **Analytical Methods**:
+  - Correlation analysis
+  - Statistical hypothesis testing
+  - Seasonal decomposition
+  - Customer segmentation analysis
+- **Usage Guide**:
+  1. Run correlation analyses for product performance
+  2. Execute seasonal pattern investigation
+  3. Analyze customer spending factors
+  4. Review loyalty analysis results
+  5. Generate comprehensive insights report
+
+### 4. `LalitNayyarIIMKMod4_predictive_analysis.ipynb`
 **Predictive Modeling and Future Behavior Forecasting**
 - **Features**:
   - Purchase frequency prediction
@@ -102,6 +127,7 @@ This project analyzes customer behavior data from an online retail platform usin
 4. Run notebooks in sequence:
    - Start with analysis notebook
    - Proceed to descriptive analysis
+   - Then, run diagnostic analysis
    - Finally, run predictive analysis
 
 ## Data Requirements
